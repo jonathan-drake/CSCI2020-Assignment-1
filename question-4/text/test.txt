@@ -1,0 +1,177 @@
+2040 Lecture Quiz with Answers for review:
+
+
+Inception
+
+What is inception?
+	Phase occurs before the projects starts and to determine if its worth it
+
+What is the goal of the inception phase?
+	To measure if the project should be taking by the development team
+
+Requirements
+	Activity Diagrams
+		What do activity diagrams represent?
+			Used to represent the flow of actions/data, used in both analysis and design
+		When activity diagrams should be used?
+			Its to show the comparison for analysis, the step the user goes through or to validate the function that you are creating
+
+Use Cases
+	What are use cases?
+		Text of the scenarios that the system can function
+	The 3 use case types?
+		fully dressed(A large amount of details, possible errors etc. i.2. lab03), Casual(more structed of brief, itemized steps), Brief (1,2 paragraphs)
+
+What are actors?
+	A role played by a user or any other system that interacts with the subject.
+
+Types of actors?
+	Primary(Customer, in contact with the system), Offstage(Services), Secondary(Those who benefit but no necessarily in contact)
+	
+What is the difference between a use case and a use case model?
+	Use case is a text which tells the story of the system for user interaction, The use case diagram is the diagram representing this
+	Use case model is the combination of both the Text and Diagram	
+
+
+
+
+-----------------------------------------------------------------------------------------------------------
+
+
+
+Are use cases functional or non-functional requirements?
+	Functional, they could have nonfunction but most commonly Functional
+
+What is the difference between a use case and use case diagram?
+	Use case is text based, while the use case diagram is a diagram based off the text base
+
+What use case model consists of?
+	Use case model consists of both text and Diagram
+
+What is the notation suggestion for system actors in use case diagrams?
+	The suggestions is to use the stick people as actors instead of the box.
+
+What are three kinds of actors?
+
+
+What are three common types of use case formats
+
+Fully dressed, brief and Casual
+
+
+-----------------------------------------------------------------------------------------------------------
+
+
+
+What is the difference between waterfall methodology and iterative process?
+	Waterfall is following the process linearly, iterative several small cycles that go through all steps
+
+Which one and why would you recommend to use in the complex project?
+	Iterative. Allows backtracking
+
+What is unified process?
+	A part of the iterative process, an iterative methodolgoy	
+
+What is an example of Extreme Programming and Scrum, respectively?
+	Extreme prgoramming is Pair programming, Scrum war rooms
+
+What are the main UP disciplines? Does the emphasis on disciplines change over time?
+	UP focuses on business modeling requirements and changes based on as its needed, programming starts early and the chance to implement
+	and rethink modeling and business requirements
+
+Is UP customizable? What are the constant characteristics of UP?
+	Yes, It has iterative properties, manages risk of the project failing, you have a continous verification of quality
+
+
+	
+
+
+-----------------------------------------------------------------------------------------------------------
+
+
+
+How to identify conceptual classes?
+	Base off use cases and identify the nouns i.e Real world objects
+	
+What is the difference between domain model and design model?
+	Domain model has conceptual classes(Real world) while design represents the software represenation of the solution
+
+Does domain model represent software classes?
+	It could, some of the domain objects could also be part of the design, but not necessarily when modeling the domain dont fret about design
+
+Is domain model required in agile UP?
+	No everything is customizable !!!!
+
+Provide an example of conceptual classes connected by multiple associations.
+	A flight going to an airport, connect by the flight paths	
+
+
+-----------------------------------------------------------------------------------------------------------
+
+
+Provide an example of composite aggregation and shared aggregation.
+	Compositite something is composed by other parts(Hand is composed by fingers), 
+	Shared you have elemnts that are shared between different elements (UML Package and UMLElement)
+
+What are the advantages of generalization from programming point of view?
+	You can use methods of the parent class, the key idea is that You can re-use code
+
+What is reflexive association? Provide an example of it.
+	Reflexive association is when an object is self connected, I.e. a lecturer attends the lecture they lecture.
+
+What is 100% rule and Is-a Test?
+	A credit payment is a payment, it is a way to determine if you should create a class
+
+What are two ways to model roles? Provide an example.
+	!!!!!!!!!!! GUARENTEED ON MIDTERM: Roles by assosciated and roles by concept !!!!!!!!!!!!!!!!! Week 7-1 slide 29 for example
+
+-----------------------------------------------------------------------------------------------------------
+
+What are the two types of Interaction Diagrams?
+	Sequence Diagram and Collaboration Diagram
+	
+Why Interaction Diagrams are useful?
+	They provide a start for implementation design and show interaction between the classes
+
+What is the advantage of Sequential Diagrams over Collaboration Diagrams?
+	They show the timeline of when new objects are created, they show the timestamps and make it easier to understand the order of
+	things happening by the way it is displayed
+
+How to order messages in Collaboration Diagrams and Sequential Diagrams, respectively?
+	hierachly order messages for collaboration, Indicate from top to bottom and follow the arrow for sequential
+
+How to iterate over an multiobject in SDs (sequence diagram)?
+	They are like two overlapping rectangles Indicating an iteration.
+	
+
+-----------------------------------------------------------------------------------------------------------
+
+
+Are interactions diagrams useful to create DCDs? If yes, how?
+	yes, they can be a very good start for creating a design class diagram
+
+What is navigability used for? 
+	It is going to show the one object depends on the other. The object that is navigating to the other contains an instance of the object
+
+How to determine the visibility of attributes and functions in DCDs?
+	Symbols like + - # /
+
+How to determine the order of the implementation of classes?
+	The amount of dependencies (connections) that a class has
+
+-----------------------------------------------------------------------------------------------------------
+Why are State diagrams useful?
+	It is used to indicate State, to understand what pages use which pages
+	In terms of the course they are useful to show how objects react to messages through their flow
+	It shows how the object changes the state because of the message
+
+What are transitition action, guard condition and nest state used for in state diagrams provide examples
+	Transition is the change, the transition is the dial tone, guard condition is the valid subscriber condition
+	Nested state ****  Week 7-1 Slide 38 for example
+
+What is partitioning used for in activity diagrams?
+	Partitioning is the seperation of the actions of activites between the actors, making it easier to read
+	i.e. the giant bars seperating the actors in the diagram
+
+What is the meaning of Rake symbol and signals in Activity Diagrams?
+	The rake symbol is used to indicate the activities that can be expanded, signals represent events.
