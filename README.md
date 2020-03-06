@@ -18,5 +18,6 @@ Histogram (Question-4):
   each character is seen. By entering a file location and clicking a button, it will
   use a canvas and create a histogram with only the letters found.
   
-  How to Run:
-  
+How to Run:
+- Copy or download the files
+- Run files through IntelliJ
